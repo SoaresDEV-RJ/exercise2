@@ -13,7 +13,7 @@ while True:
     
     computador = randint(0,10)
     total = jogador + computador
-    tipo = "PAR" if total % 2 == 0 else "IMPAR"
+    tipo = "P" if total % 2 == 0 else "I"
     
     print(f'Você jogou {jogador}, computador {computador}. Total {total} = {tipo}')
     
